@@ -1,6 +1,6 @@
 package main
 
-//import "embed"
+import _ "embed"
 
 //go:embed templates/main.go.tmpl
 var tmplMainGo []byte
